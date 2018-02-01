@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url();
+
+.bg-wrapper {
+	/*background-image: url('../images/img2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+	/*color: #751d1d;*/
+	height: 60%;
+}
+
+.beeaktive-brief{
+	font-size: 20px;
+	font-weight: 0.5;
+	font-family: Courier New, Courier, monospace;
+	color: rgba(61, 53, 68, 0.9);
+	/*background-image: url('../images/bg6.png');
+	background-size: cover;*/
+}
+
+.cards-body{
+	font-size: 18px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: rgba(61, 53, 68, 0.9);
+}
+
+body{
+	/*background-color: rgba(95,36,146,.9);*/
+	color: rgba(95,36,146,.9);
+	font-family: garamound;
+	font-size: 15px;
+}
+
+.form {
+	background-color: rgba(182, 144, 214, 0.2);
+	border-radius: 0px;
+}
+
+.dial{
+	color: red;
+}
+
+.text-flash{
+	
+	font-size: 20px;
+	padding: 5 5;
+	border: 1px solid;
+	border-color: red;
+	border-radius: 5px;
+}
+
+.testimony{
+
+}
+
+.testimony-image{
+	width: 100%;
+	border-radius: 10px;	
+}
+
+.home-title{
+	text-align: center;
+	font-weight: 500px;
+	font-size: 50px;
+	font-family: garamound;
+	margin-left: 20px;
+}
+
+.hr{
+	border-color: rgba(95,36,146,.5);
+}
+
+.welcome{
+	font-size: 50px;
+	color:red;
+	font-family: 'Dancing Script';
+	margin-left: 20px;
+	font-weight: 100;
+	border-color: 3px solid rgba(95,36,146,1);
+	
+}
+.contact-thanks{
+	font-size: 30px;
+	font-family: 'Dancing Script';
+	color:red;
+	margin-left: 10px;
+}
+.footer{
+	background-color: rgba(95,36,146,.9);
+	color: white;
+	height: 50px;
+	padding: 15;
+	font-size:20px;
+	font-family: Courier New, Courier, monospace;
+}
+.footer-link{
+	text-decoration: none;
+	padding-left: 15;
+}
+
+.footer-image{
+	height: 40px;
+	
+	margin-top: -10px;
+	border-radius: 50%;
+}
+
+.logo{
+	width:140px;
+	position: absolute;
+	margin-left: 100px;
+	top: 0px;
+}
+
+.menu{
+	margin-right: 0px;
+	
+}
+
+.header{
+	z-index: 2;
+	width:100%;
+	background-color: rgba(95,36,146,.3);
+	position: absolute;
+	top: 0px;	
+	padding: 5;
+	
+}
+
+.header1{
+	padding: 60;
+	padding-left: 300;
+	font-size: 60;
+}
+
+
+.link{
+	color: #fff;
+	font-weight: 500;
+}
+
+.content{
+	margin-top: 30;
+	font-weight: 100;
+}
+
+.board{
+	background-color: rgba(95,36,146,.3);
+	border-radius: 10px;
+}
+
+@media (max-width: 750px){
+
+	.bg-wrapper{
+		height: 45%;
+	}
+
+	.logo{
+		width: 100px;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 600px){
+
+	.menu-border{
+		border-width: 5px;		
+		border-color: red;	
+		
+	}
+
+	.toggle-menu-top{
+		float: right;
+		height: 5px;
+		width: 40px;
+		right: 0px;		
+		top: 0px;
+		position: absolute;
+		margin-right: 10;
+		margin-top: 10;
+		background-color: white;
+		z-index: 4;
+	}
+	.toggle-menu-middle{
+		float: right;
+		height: 5px;
+		width: 40px;
+		right: 0px;		
+		top: 10px;
+		position: absolute;
+		margin-right: 10;
+		margin-top: 10;
+		background-color: white;
+		z-index: 4;
+	}
+	.toggle-menu-bottom{
+		float: right;
+		height: 5px;
+		width: 40px;
+		right: 0px;		
+		top: 20px;
+		position: absolute;
+		margin-right: 10;
+		margin-top: 10;
+		background-color: white;
+		z-index: 4;
+	}
+
+	.header{
+		display: none;
+	}
+
+	.bg-wrapper{
+		height: 40%;
+	}
+
+	.logo{
+		width: 80px;
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 580px){
+
+	.bg-wrapper{
+		height: 27%;
+	}
+
+	.logo{
+		width: 50px;
+		margin-left: 20px;
+	}
+
+}
+
+@media (max-width: 380px){
+
+	.bg-wrapper{
+		height: 25%;
+	}
+
+	.logo{
+		width: 50px;
+		margin-left: 20px;
+	}
+}
+
+/*<ibd>marymonovis@gmail.com</ibd> <ibd>Tel: 07811181165/66</ibd>*/

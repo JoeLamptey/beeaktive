@@ -1,0 +1,36 @@
+
+{
+  "access_token": "ya29.GltRBQPCj3lQZxcERLbqpU7kl5jIsfgoVp_MxazcKSsGh5uylykPVI42VtCi55bEwka6dhhwt56MHKiR08DspIrjm5fm9GNxsQA9KEFtKsdeNFWNmVM7YsFzJ9zt", 
+  "token_type": "Bearer", 
+  "expires_in": 3600, 
+  "refresh_token": "1/T6ezn3q_cajMuBD-1ezZSe4JlQuvYcoiAD0MUXHA9C0"
+}
+
+let transporter = nodemailer.createTransport({
+			host: 'smtp.ethereal.email',
+			port: 587,//587
+			secure: false, // true for 465, false for other ports
+			auth: {
+				user: 'ho2254k2rtmuj3gy@ethereal.email', // generated ethereal user
+				pass: 'RWTmdcJBkcKtkbraKg'  // generated ethereal password 
+			}
+		});
+		
+		// setup email data with unicode symbols
+		let mailOptions = {
+			from: '"BeeAktive"'+contactInfo.email, // sender address
+			to: 'ruther.hse@gmail.com,joseph.proscom@gmail.com', // list of receivers
+			subject: contactInfo.subject, 
+			text: contactInfo.message, // plain text body
+			html: '<b>Hello test html </b>' // html body
+		};
+		
+		// send mail with defined transport object
+		transporter.sendMail(mailOptions, (error, info) => {
+			if (error) {
+				return console.log(error);
+			}
+			console.log('Message sent: %s', info.messageId);
+			// Preview only available when sending through an Ethereal account
+			console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+		});
