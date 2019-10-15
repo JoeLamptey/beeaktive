@@ -52,6 +52,16 @@ class Services extends Component{
 							and also tailor the individual’s care package to the needs of the clients. 
 							We work with other health and social professionals to meet the needs of our service users.							
 						</p>
+						<div className="">
+							<div className="content">
+								<h3>CQC Inspection Area Ratings</h3>
+								<img src="./images/cqc.png" className='card-img-top' alt="CQC Ratings here..."/>
+								<footer className="blockquote-footer">
+									CQC
+									<cite title="Source Title"> Latest report published on October 2018</cite>
+								</footer>
+							</div>							
+						</div>
 					</div>
 					<div className='col-md-4'>					
 						<div className='card'>
@@ -93,6 +103,27 @@ class Services extends Component{
 									<footer className="blockquote-footer">
 										Mrs. Mary Monovis
 										<cite title="Source Title"> CEO of BeeAktive Care Limited</cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div><br />
+						<div className="card">
+							<div className="card-header">
+								<h4>Specialism & Services</h4>
+							</div>
+							<div className="card-body">
+								<blockquote className="blockquote mb-0">
+									<p>
+										<ul>Dementia</ul>
+										<ul>Mental Health conditions</ul>
+										<ul>Personal Care</ul>
+										<ul>Physical Disabilities</ul>
+										<ul>Caring For Adults under 65 years</ul>
+										<ul>Caring For Adults over 65 years</ul>
+									</p>
+									<footer className="blockquote-footer">
+										CQC
+										<cite title="Source Title"> Approved By the Care Quality Commission</cite>
 									</footer>
 								</blockquote>
 							</div>

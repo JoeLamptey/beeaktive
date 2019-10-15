@@ -24,6 +24,7 @@
     "react": "^0.14.3"
   },
   "scripts": {
+    "build": "webpack",
     "start": "node server.js"
   },
   "author": "Joseph Lamptey",
